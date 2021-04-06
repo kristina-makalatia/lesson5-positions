@@ -1,0 +1,88 @@
+body {
+	height: 1800px;
+	padding-top: 102px;
+}
+/*.section-wraper {
+	margin-top: 102px;
+}*/
+/*header styles*/
+.logo {
+	width: 150px;
+}
+.logo-img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+.navigation {
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav-li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.header-wraper {
+	background-color: grey;
+	padding: 30px;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 20;
+}
+
+
+/*position absolute & relative example*/
+.wraper-box {
+	height: 400px;
+	width: 400px;
+	background-color: blue;
+	position: relative;
+}
+.child-box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	z-index: 5;
+}
+.child-box2 {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: absolute;
+	top: 180px;
+	left: 250px;
+	z-index: 4;
+}
+.test {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+/*chat icon example*/
+.chat-icon {
+	height: 80px;
+}
+.chat-wraper {
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+}
+
+/*image example*/
+.text-image {
+	position: absolute;
+	top: 150px;
+	right: 180px;
+	color: red;
+}
+.image-wraper {
+	position: relative;
+	display: inline-block;
+	/*width: 1000px;*/
+}
